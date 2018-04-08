@@ -1,7 +1,11 @@
 module Main where
-
-import Lib
-import Stream
+    
+import Tree
 
 main :: IO ()
-main = print $ show ruler
+
+tree =  let l = Leaf()
+            n = Node
+        in n (n (n l l) l) (n l l)
+
+main = print $ show (labelTree tree)

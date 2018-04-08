@@ -1,5 +1,6 @@
 module Tree
     ( labelTree
+    , Tree(..)
     ) where
 
 import Stream
